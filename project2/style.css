@@ -1,0 +1,87 @@
+@font-face {
+    font-family: font;
+    src: url(/NotoSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(/NotoSans-Light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #dedede;
+    font-family: font;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+    padding-top: 8vw;
+}
+
+.section{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section1-bottom{
+    width: 75%;
+}
+
+h1{
+    font-size: 8vw;
+    font-weight: 100;
+    line-height: 110px;
+    font-family: font2;
+    letter-spacing: -5px;
+}
+
+.color {
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 1px 10px ;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.color :nth-child(1){
+    margin-left: 6px;
+    background-color: rgb(180, 129, 63);
+}
+
+.color :nth-child(2){
+    background-color: rgb(74, 19, 19);
+
+}
+
+.color div{
+    height: 16px;
+    width: 16px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+h3{
+    margin-bottom: 8px;
+}
+
+.section2{
+    height: 90%;
+    background-color: red;
+}
